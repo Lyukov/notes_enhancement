@@ -4,6 +4,17 @@ A simple tool for enhancement the photos of documents, notes, books, etc.
 
 It makes lighting uniform and increases the contrast of the images.
 
+## Example of usage:
+
+`python3 enhance.py img.jpg -o output.jpg --gray --sigma 50 --thrs 5 13`
+
+## Parameters:
+
+`--gray` makes grayscale image
+`--sigma SIGMA` is the parameter for Gaussian filter (required for uniform lighting)
+`--thrs LOW HIGH` are two thresholds for contrast stretching. They specify how many pixels (in percent) will be black and non-white, respectively
+`--format FMT` is the format of output image
+
 There are some examples:
 
 ![Example1](examples/1.jpg)
