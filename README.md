@@ -10,13 +10,13 @@ It makes lighting uniform and increases the contrast of the images.
 
 ## Parameters:
 
-`--gray` makes grayscale image
+`--gray` makes grayscale image,
 
-`--sigma SIGMA` is the parameter for Gaussian filter (required for uniform lighting)
+`--sigma SIGMA` is the parameter for Gaussian filter (required for uniform lighting),
 
-`--thrs LOW HIGH` are two thresholds for contrast stretching. They specify how many pixels (in percent) will be black and non-white, respectively
+`--thrs LOW HIGH` are two thresholds for contrast stretching. They specify how many pixels (in percent) will be black and non-white, respectively,
 
-`--format FMT` is the format of output image
+`--format FMT` is the format of output image.
 
 # Examples:
 
